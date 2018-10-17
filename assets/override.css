@@ -1,0 +1,33 @@
+body{
+    background:#1f2125 !important;
+    color:#fff !important;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif !important;
+    height:100%;
+}
+.container > .row a {
+    color: #ffffff !important;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s; 
+}
+.container > .row a:focus, a:hover {
+      color: #888888 !important;
+}
+
+header.masthead .post-heading {
+        padding: 100px 0 50px !important;
+}
+@media only screen and (min-width: 992px) {
+#mainNav {
+    border-bottom: 1px solid transparent;
+    background: transparent;
+    color: #ffffff !important;
+}
+}
+pre.highlight{
+    color:#eeeeee;
+    background-color: #282a2f;
+    padding: 8px 15px;
+    border-radius: 1px;
+}
