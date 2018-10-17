@@ -14,10 +14,6 @@ Since you are already here reading my BS, i'm guessing you have lot of free time
 
 I have not decided what I am going to write here. Come back here if you think I can write more random stuff like this (or if you are totally jobless).
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
 
 Cheers,  
 Vishwas 
