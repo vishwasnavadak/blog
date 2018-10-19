@@ -16,8 +16,9 @@
 title: Vishwas Navada K's Blog
 email: hi@vishwas.tech
 description: >- # this means to ignore newlines until "baseurl:"
-I am an IT Professional currently working in Infosys Ltd. I have my interest in Programming, Data Visualization and UI Development. 
-I love to take pictures in free time.
+- I am an IT Professional currently working in Infosys Ltd. 
+- I have my interest in Programming, Data Visualization and UI Development. 
+- I love to take pictures in free time.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://vishwas.tech/blog/" # the base hostname & protocol for your site, e.g. http://example.com
 production_url : http://vishwas.tech/blog/
