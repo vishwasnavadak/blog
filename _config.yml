@@ -23,9 +23,8 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://vishwas.tech/blog/" # the base hostname & protocol for your site, e.g. http://example.com
 production_url : http://vishwas.tech/blog/
 BASE_PATH : http://vishwas.tech/blog/
-twitter_username: vishwasnavadak
-github_username:  vishwasnavadak
-
+social_media: vishwasnavadak
+author: Vishwas
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-clean-blog

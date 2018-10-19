@@ -31,3 +31,14 @@ pre.highlight{
     padding: 8px 15px;
     border-radius: 1px;
 }
+.btn-primary {
+    color:#ffffff;
+    background-color: #1f2125;
+    border-color: #ffffff;
+}
+
+footer {
+    font-size: 0.7em;
+    padding: 0px 10px;
+}
+
