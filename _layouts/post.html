@@ -23,6 +23,21 @@ layout: default
           {% else %}
             {{ site.author }}
           {% endif %}      </strong>      on <strong>{{ page.date | date: '%B %d, %Y' }}</strong></span>
+          <div class="share-buttons">  
+              <p >Share: </p>
+              <!-- Facebook -->
+              <a href="http://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}" target="_blank">
+                <span class="fa fa-facebook-official fa-2x">
+              </a>
+               <!-- Twitter -->
+               <a href="https://twitter.com/share?url={{site.url}}{{page.url}}&amp;text=Simple%20Share%20Buttons&amp" target="_blank">
+                <span class="fa fa-twitter-square fa-2x">
+              </a>
+              <!-- LinkedIn -->
+              <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{site.url}}{{page.url}}" target="_blank">
+                <span class="fa fa-linkedin-square fa-2x">
+              </a>
+          </div>
         </div>
       </div>
     </div>
@@ -36,7 +51,6 @@ layout: default
       {{ content }}
 
       <hr>
-
       <div class="clearfix">
 
         {% if page.previous.url %}

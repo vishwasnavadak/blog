@@ -18,6 +18,18 @@ body{
 header.masthead .post-heading {
         padding: 100px 0 50px !important;
 }
+.share-buttons {
+    display: table;
+    padding:10px 0;
+}
+.share-buttons > p{
+    display:table-cell;
+    vertical-align: middle;
+    padding-right:10px;
+}
+.share-buttons > a{
+    text-decoration: none;
+}
 @media only screen and (min-width: 992px) {
 #mainNav {
     border-bottom: 1px solid transparent;
