@@ -30,6 +30,16 @@ header.masthead .post-heading {
 .share-buttons > a{
     text-decoration: none;
 }
+hr { 
+	width:100%;
+	border: 0; 
+	height: 1px; 
+	margin-top: 15px 0px !important; 
+	background-color: rgba(162, 156, 156, 0.1);
+}
+header.masthead {
+    margin-bottom: 10px;
+}
 @media only screen and (min-width: 992px) {
 #mainNav {
     border-bottom: 1px solid transparent;
