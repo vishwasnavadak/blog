@@ -2,7 +2,7 @@
 layout: post
 title: "The Todo-list Addiction"
 subtitle: ""
-date: 2018-11-03 08:08:08
+date: 2018-11-05 08:08:08
 background: '/assets/images/post_3.jpg'
 ---
 **TL;DR - I use too many note taking apps. Here is the list of those.**
