@@ -14,9 +14,6 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="{{"/assets/vendor/bootstrap/css/bootstrap.min.css" | relative_url }}">
-  <!-- To Generate RSS feed in json -->
-  <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
-
   <link rel="stylesheet" href="{{"/assets/vendor/font-awesome/css/font-awesome.min.css" | relative_url }}">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   <meta name="theme-color" content="#34353c" />
@@ -24,5 +21,7 @@
   <link rel="stylesheet" href="{{"/assets/override.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <!-- To Generate RSS feed in json -->
+  <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed.json" | relative_url }}" />
 
 </head>
