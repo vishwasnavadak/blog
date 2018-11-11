@@ -22,6 +22,6 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <!-- To Generate RSS feed in json -->
-  <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed.json" | relative_url }}" />
+  <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
 
 </head>
