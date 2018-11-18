@@ -3,7 +3,7 @@ layout: post
 title: "How to interact with DynamoDB from React-Redux Application"
 subtitle: ""
 date: 2018-11-18 08:08:08
-background: '/assets/images/post_4/1.jpg'
+background: '/assets/images/post_4/0.png'
 ---
 I spent most of my last week building my first React Application that fetches data from AWS DynamoDB and adds data to DynamoDB. In that process, I ended up banging my head to table so many times trying to understand the AWS documentation filled with jargons and trying to find the working code snippet in StackOverflow. 
 
