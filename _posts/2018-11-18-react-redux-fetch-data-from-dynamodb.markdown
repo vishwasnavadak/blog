@@ -59,30 +59,30 @@ Here you need to configure the methods that your API need to accept. First, dele
 
 
 Add GET method to the API and with the below settings save the API.
-<img src="{{ site.baseurl }}/assets/images/post_4/11.png" width="100%" alt="" Title=""/>
+<img src="{{ site.baseurl }}/assets/images/post_4/11.png" width="100%" alt="Adding GET method to API Gateway" Title="Adding GET method to API Gateway"/>
 
-<img src="{{ site.baseurl }}/assets/images/post_4/12.png" width="100%" alt="" Title=""/>
+<img src="{{ site.baseurl }}/assets/images/post_4/12.png" width="100%" alt="Adding GET Method to API Gateway" Title="Adding GET Method to API Gateway"/>
 Now you need to configure the API to accept the API for security. Do to that click on the Method Request, click the pencil icon beside **API Key Required** field and make it true. 
-<img src="{{ site.baseurl }}/assets/images/post_4/13.png" width="100%" alt="" Title=""/>
+<img src="{{ site.baseurl }}/assets/images/post_4/13.png" width="100%" alt="Adding API Key to API" Title="Adding API Key to API"/>
 
-<img src="{{ site.baseurl }}/assets/images/post_4/14.png" width="100%" alt="" Title=""/>
+<img src="{{ site.baseurl }}/assets/images/post_4/14.png" width="100%" alt="Adding API Key to API" Title="Adding API Key to API"/>
 
 
 You need to enable CORS(Cross-Origin Resource Sharing) in your API to test it from localhost or to access the API from different the origin (you can read more about CORS <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS" target="_blank">**here**</a>). 
-<img src="{{ site.baseurl }}/assets/images/post_4/15.png" width="100%" alt="" Title=""/>
+<img src="{{ site.baseurl }}/assets/images/post_4/15.png" width="100%" alt="Adding CORS to AWS APi Gateway" Title="Adding CORS to AWS APi Gateway"/>
 
 
 Once you are done with setting up the methods. Deploy the API in default state go get the URL.
-<img src="{{ site.baseurl }}/assets/images/post_4/16.png" width="100%" alt="" Title=""/>
+<img src="{{ site.baseurl }}/assets/images/post_4/16.png" width="100%" alt="Deploying API AWS" Title="Deploying API AWS"/>
 
 
 You can now test the API URL with Postman API Client.
-<img src="{{ site.baseurl }}/assets/images/post_4/17.png" width="100%" alt="" Title=""/>
+<img src="{{ site.baseurl }}/assets/images/post_4/17.png" width="100%" alt="Testing API using Postman" Title="Testing API using Postman"/>
 
 
 ### Step 3: Using the API inside React
 Get the secret API key for your API by going to API Keys in API Gateway Console and select the key with the same name as the API you just created. 
-<img src="{{ site.baseurl }}/assets/images/post_4/18.png" width="100%" alt="" Title=""/>
+<img src="{{ site.baseurl }}/assets/images/post_4/18.png" width="100%" alt="Getting API Key for AWS API" Title="Getting API Key for AWS API"/>
 
 
 In my case, I am using Redux store to handle my states. I have created an action to fetch the data and put it to the state. Here is the sample code.
@@ -95,13 +95,13 @@ Create the lambda function and API Gateway(also CORDS method) as shown previousl
 Here I am fetching the 'desc' (Line 10) from the URL that is being sent from the React App which I will explain in next the step. Also, I am using ''uuid' package to auto-generate a unique ID for the id column in my table. More about it can be found in <a href ="https://stackoverflow.com/questions/37072341/how-to-use-auto-increment-for-primary-key-id-in-dynamodb" target='_blank' >**this thread**</a>.
 
 ### Step 2: create POST method and adding parameters
-<img src="{{ site.baseurl }}/assets/images/post_4/19.png" width="100%" alt="" Title=""/>
+<img src="{{ site.baseurl }}/assets/images/post_4/19.png" width="100%" alt="Adding Parameters to API" Title="Adding Parameters to API"/>
 
 Create a POST method and save. After that click on **Integration Request** and scroll down to **Mapping Templates**. Click on the **Add mapping template** and add application/json content type.
-<img src="{{ site.baseurl }}/assets/images/post_4/20.png" width="100%" alt="" Title=""/>
+<img src="{{ site.baseurl }}/assets/images/post_4/20.png" width="100%" alt="Mapping Template API Gateway" Title="Mapping Template API Gateway"/>
  
 Add its content as shown below. 
-<img src="{{ site.baseurl }}/assets/images/post_4/21.png" width="100%" alt="" Title=""/>
+<img src="{{ site.baseurl }}/assets/images/post_4/21.png" width="100%" alt="JSON Parameter Mapping Template" Title="JSON Parameter Mapping Template"/>
 
 This piece of code will read the 'desc' from the API parameters and sends it as JSON to the lambda function. Thus passed parameter can be fetched from the event object as shown in the sample code above. 
 
