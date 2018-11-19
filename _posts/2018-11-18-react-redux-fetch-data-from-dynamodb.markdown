@@ -118,3 +118,5 @@ Uff. I shouldn't have mentioned the word **brief** at the beginning. This post i
 * <a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.NodeJs.03.html" target="_blank" >DynamoDB Docs - Create, Read, Update, and Delete an Item</a>
 * <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-cors.html" target="_blank" >Enable CORS for an API Gateway Resource
 </a>
+* <a href="https://www.youtube.com/watch?v=afhNipd6TkE" target="_blank">Passing information through API Gateway 
+</a>
