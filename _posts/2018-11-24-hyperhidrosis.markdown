@@ -17,7 +17,7 @@ Because I have something called Hyperhidrosis. Wikipedia defines it as *a condit
 Because I am born with a hell lot of sweat glands on my hand. 
 
 ### 3. Is it some kind of disease? Have you tried *XYZ* type of medicine, it might work.
-No, it is caused by caused by over-activity of the sympathetic nervous system(I have no idea what that means). Yes, I have consulted all type of doctors already, nobody seems to have a working fix.
+No, it is caused by over-activity of the sympathetic nervous system(I have no idea what that means). Yes, I have consulted all type of doctors already, nobody seems to have a working fix.
 
 ### 4. I haven't seen anybody like this.
 You should try to socialize and meet more people. You will get, eventually.
