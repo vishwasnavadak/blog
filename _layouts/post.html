@@ -26,16 +26,20 @@ layout: default
           <div class="share-buttons">  
               <p >Share: </p>
               <!-- Facebook -->
-              <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}/blog{{page.url}}" target="_blank">
+              <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}/blog{{page.url}}" target="_blank" aria-label="Facebook Share Link">
                 <span class="fa fa-facebook-official fa-2x">
               </a>
                <!-- Twitter -->
-               <a href="https://twitter.com/share?url={{site.url}}/blog{{page.url}}&amp;text=Check This Post" target="_blank">
+               <a href="https://twitter.com/share?url={{site.url}}/blog{{page.url}}&amp;text=Check This Post" target="_blank" aria-label="Twitter Share Link">
                 <span class="fa fa-twitter-square fa-2x">
               </a>
               <!-- LinkedIn -->
-              <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{site.url}}/blog{{page.url}}" target="_blank">
+              <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{site.url}}/blog{{page.url}}" target="_blank" aria-label="LinkedIn Share Link">
                 <span class="fa fa-linkedin-square fa-2x">
+              </a>
+              <!-- Whatsapp -->
+              <a href="whatsapp://send?text=Check this post! {{site.url}}/blog{{page.url}}" data-action="share/whatsapp/share" aria-label="WhatsApp Share Link">
+                <span class="fa fa-whatsapp fa-2x">
               </a>
           </div>
         </div>
