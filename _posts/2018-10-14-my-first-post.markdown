@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "First One Here"
+excerpt: "My First Post on my Jekyll Blog"
+metakeywords: jekyll, blog, github, vishwasnavadak
 subtitle: "Hopefully not the last."
 date: 2018-10-16 08:08:08
 background: '/assets/images/post_1.jpg'

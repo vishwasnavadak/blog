@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "The Sweaty Situation"
+excerpt: "What is hyperhidrosis, it's effects on normal lifestyle."
+metakeywords: hyperhidrosis, sweaty palms, excessive sweating, vishwasnavadak
 subtitle: ""
 date: 2018-11-24 08:08:08
 background: '/assets/images/post_5.png'

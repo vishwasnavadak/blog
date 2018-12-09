@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "How to interact with DynamoDB from React-Redux Application"
+excerpt: "How to interact with AWS DynamoDB from React-Redux Application"
+metakeywords: react, redux, aws, dynamodb, how to, tutorial, vishwasnavadak
 subtitle: ""
 date: 2018-11-18 08:08:08
 background: '/assets/images/post_4/0.png'
