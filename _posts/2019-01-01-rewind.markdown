@@ -1,0 +1,244 @@
+---
+layout: post
+title: "Life on Internet - Revisited"
+excerpt: "Timeline of my journey with the internet."
+metakeywords: internet, rewind, vishwasnavadak
+subtitle: ""
+date: 2019-01-01 08:08:08
+background: '/assets/images/post_6.jpeg'
+---
+Since it's the beginning of the new year, I see a lot of *rewind* videos on YouTube. I decided to do something different and came up with an idea of writing a little about how my life has been on the internet. Please enjoy scrolling down till the end of the post.
+<style> /* Sorry for adding CSS here -kVn */
+.main-timeline{
+    font-family: 'Sanchez', serif;
+    position: relative;
+}
+.main-timeline:before{
+    content: '';
+    height: 100%;
+    width: 2px;
+    border: 3px dashed #999;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{
+    width: 50.05%;
+    display:inline-block;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.main-timeline .timeline:before,
+.main-timeline .timeline:after{
+    content: '';
+    background-color: #57595a;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: -12px;
+}
+.main-timeline .timeline:after{
+    height: 17px;
+    width: 150px;
+    border-radius: 0;
+    right: 0;
+}
+.main-timeline .timeline-content{
+    text-align: right;
+    min-height: 155px;
+    padding: 20px 230px 15px 12px;
+    display:block;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-year{
+    color: #57595a;
+    background-color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    height: 120px;
+    width: 120px;
+    border: 10px solid #57595a;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    z-index: 1;
+}
+.main-timeline .title{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+}
+.main-timeline .description{
+    color: #eeeeee;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.main-timeline .timeline:nth-child(even){ float: right; }
+.main-timeline .timeline:nth-child(even):before{
+    right: auto;
+    left: -12px;
+}
+.main-timeline .timeline:nth-child(even):after{
+    right: auto;
+    left: 0;
+}
+.main-timeline .timeline:nth-child(even) .timeline-content{
+    padding: 20px 12px 15px 230px;
+    text-align: left;
+}
+.main-timeline .timeline:nth-child(even) .timeline-year{
+    right: auto;
+    left: 100px;
+}
+
+
+@media screen and (max-width:990px){
+    .main-timeline .timeline-year{ right: 30px; }
+    .main-timeline .timeline-content{ padding: 15px 160px 15px 15px; }
+    .main-timeline .timeline:nth-child(even) .timeline-year{ left: 30px; }
+    .main-timeline .timeline:nth-child(even) .timeline-content{ padding: 15px 15px 15px 160px; }
+}
+@media screen and (max-width:767px){
+    .main-timeline:before{
+        transform: translateX(0);
+        left: -3px;
+    }
+    .main-timeline .timeline{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main-timeline .timeline:before,
+    .main-timeline .timeline:after,
+    .main-timeline .timeline:nth-child(even):before,
+    .main-timeline .timeline:nth-child(even):after{
+        transform: translateY(0);
+        top: 14px;
+    }
+ 
+    .main-timeline .timeline:before,
+    .main-timeline .timeline:after{
+        right: auto;
+        left: -12px;
+    }
+    .main-timeline .timeline:after{ left: 0; }
+    .main-timeline .timeline:after,
+    .main-timeline .timeline:nth-child(even):after{
+        width: 50px;
+        top: 17px;
+    }
+    .main-timeline .timeline .timeline-content,
+    .main-timeline .timeline:nth-child(even) .timeline-content{
+        text-align: left;
+        padding: 70px 10px 10px 20px;
+    }
+    .main-timeline .timeline .timeline-year,
+    .main-timeline .timeline:nth-child(even) .timeline-year{
+        line-height: 40px;
+        height: 50px;
+        width: 120px;
+        border-width: 5px;
+        transform: translateY(0);
+        top: 0;
+        left: 45px;
+    }
+}
+</style>
+<div class="main-timeline">
+                <div class="timeline">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2005</span>
+                        <h3 class="title">Dial-Up Connection</h3>
+                        <p class="description">
+                            Connected to the world of internet using something that makes weird noise while establishing the connection.
+                        </p>
+                   </div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2006</span>
+                        <h3 class="title">The Web</h3>
+                        <p class="description">
+                            Created the first webpage with just HTML, body and font tags using notepad. Felt amazed by the &lt;marquee&gt; animation.
+                        </p>
+                   </div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2008</span>
+                        <h3 class="title">Google</h3>
+                        <p class="description">
+                            Googled the answers for the school assignments (among other things).
+                            Created a mail id for no reason.
+                        </p>
+                   </div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2010</span>
+                        <h3 class="title">Socializing</h3>
+                        <p class="description">
+                            Finally used the email id to sign up for Facebook. Wasted a lot of time asking everyone "Are you on Facebook?".
+                        </p>
+                   </div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2012</span>
+                        <h3 class="title">Useful Stuff</h3>
+                        <p class="description">
+                            Started my first blog on blogger.com. Wrote reviews about new software, apps and games. Also provided people with tested torrent links for those software and games (Sorry!). 
+                        </p>
+                   </div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2013</span>
+                        <h3 class="title">Learning!</h3>
+                        <p class="description">
+                            Started learning HTML and CSS in the process of customizing blogger templates. Learnt PHP to come up with creative phishing sites for collecting Gmail, Facebook credentials. Meanwhile tried to make tutorial videos on YouTube.
+                        </p>
+                   </div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2014</span>
+                        <h3 class="title">Spending and Earning</h3>
+                        <p class="description">
+                            Bought my first domain name "webception.in". Discovered WordPress and started making websites for local small businesses. Also started sharing posts related to entrepreneurship on facebook (facepalm). 
+                        </p>
+                   </div>
+                </div>
+                
+</div>
+
+### 2018
+Since I couldn't fit the important things that happened in 2018 inside the above timeline layout, I have listed them below,
+* Took a break from Facebook and Instagram. 
+* Contributed over 100 pictures, answered almost 500 questions, reviewed, rated and edited a good number of places on Google Maps
+* Revamped the Github page that was created long ago.
+* Bought the domain *vishwas.tech*.
+* Committed on writing at least one blog post per month (So far so good).
+* Set a target to learn a couple of new things.
+
+
+## Happy new year!
+
+
+<small> Pure CSS timeline design is from <a href="http://www.bestjquery.com/labs/css-timeline-style-48/" target="_blank" rel="noopener noreferrer">here</a> </small>
