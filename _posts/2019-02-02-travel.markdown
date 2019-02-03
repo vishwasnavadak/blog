@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "That #Wanderlust feeling"
-excerpt: "TODO ."
-metakeywords: travel, vishwasnavadak
+excerpt: "Why to travel so much?"
+metakeywords: travel, trip, wanderlust, vishwasnavadak
 subtitle: ""
 date: 2019-02-02 08:08:08
 background: '/assets/images/post_7.jpg'
