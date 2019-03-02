@@ -6,7 +6,7 @@ insertLine("./README.md")
     `#### ${posts[0].date_published.substring(0, 10)} - [${
       posts[0].title
     }](https://vishwas.tech/${posts[0].id.substring(
-      22,
+      20,
       posts[0].id.length
     )}?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) \r\n`
   )
