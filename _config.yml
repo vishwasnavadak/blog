@@ -21,11 +21,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   I take pictures in free time.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://vishwas.tech" # the base hostname & protocol for your site, e.g. http://example.com
-production_url : http://vishwas.tech/blog/
-BASE_PATH : http://vishwas.tech/blog/
+production_url: http://vishwas.tech/blog/
+BASE_PATH: http://vishwas.tech/blog/
 social_media: vishwasnavadak
 metakeywords: vishwas navada k, vishwasnavadak, vishwas github page, vishwas.tech, personal portfolio, webception, web developer, udupi, saligrama
-author: Vishwas
+author: Vishwas Navada K
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-clean-blog
@@ -34,7 +34,6 @@ plugins:
   - jekyll-redirect-from
 
 remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
