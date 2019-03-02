@@ -48,7 +48,7 @@ layout: default
               </a>
               <!-- Twitter -->
               <a
-                href="https://twitter.com/share?url={{ site.url }}/blog{{
+                href="https://twitter.com/intent/tweet?url={{ site.url }}/blog{{
                   page.url
                 }}&amp;text=Check This Post"
                 target="_blank"
@@ -70,7 +70,9 @@ layout: default
               </a>
               <!-- Whatsapp -->
               <a
-                href="whatsapp://send?text={{ site.url }}/blog{{ page.url }}"
+                href="https://wa.me/?text=Hey, check this post! {{
+                  site.url
+                }}/blog{{ page.url }}"
                 data-action="share/whatsapp/share"
                 aria-label="WhatsApp Share Link"
               >
