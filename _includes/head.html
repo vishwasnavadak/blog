@@ -35,7 +35,10 @@
     name="twitter:description"
     content="{{ page.excerpt | default: site.description }}"
   />
-  <meta name="twitter:image" content="{{ site.url }}{{ page.background }}" />
+  <meta
+    name="twitter:image"
+    content="{{ site.url }}blog{{ page.background }}"
+  />
 
   <link
     href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
