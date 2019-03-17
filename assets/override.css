@@ -1,99 +1,101 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-body{
-    background:#1f2125 !important;
-    color:#fff !important;
-    vertical-align: middle;
-    font-family: 'Raleway', sans-serif !important;
-    height:100%;
+body {
+  background: #1f2125 !important;
+  color: #fff !important;
+  vertical-align: middle;
+  font-family: "Raleway", sans-serif !important;
+  height: 100%;
 }
 .container > .row a {
-    color: #ffffff !important;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    transition: all 0.2s; 
+  color: #ffffff !important;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
 }
-.container > .row a:focus, a:hover {
-      color: #888888 !important;
+.container > .row a:focus,
+a:hover {
+  color: #888888 !important;
 }
 
 header.masthead .post-heading {
-        padding: 100px 0 10px !important;
+  padding: 100px 0 10px !important;
 }
 .share-buttons {
-    display: table;
-    padding:10px 0;
+  display: table;
+  padding: 10px 0;
 }
-.share-buttons > p{
-    display:table-cell;
-    vertical-align: middle;
-    padding-right:10px;
+.share-buttons > p {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 10px;
 }
-.share-buttons > a{
-    text-decoration: none;
+.share-buttons > a {
+  text-decoration: none;
 }
-hr { 
-	width:100%;
-	border: 0; 
-	height: 1px; 
-	margin-top: 15px 0px !important; 
-	background-color: rgba(162, 156, 156, 0.1);
+hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  margin-top: 15px 0px !important;
+  background-color: rgba(162, 156, 156, 0.1);
 }
 figcaption {
-    text-align: center;
-    font-size: 0.8em;
+  text-align: center;
+  font-size: 0.8em;
 }
 header.masthead {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 @media only screen and (min-width: 992px) {
-#mainNav {
+  #mainNav {
     border-bottom: 1px solid transparent;
     background: transparent;
     color: #ffffff !important;
+  }
 }
-}
-pre.highlight{
-    color:#eeeeee;
-    background-color: #282a2f;
-    padding: 8px 15px;
-    border-radius: 1px;
+pre.highlight {
+  color: #eeeeee;
+  background-color: #282a2f;
+  padding: 8px 15px;
+  border-radius: 1px;
 }
 /* gist dark theme from https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/monokai.css */
 body .gist .highlight {
-    background: #0a0b0c;
+  background: #0a0b0c;
 }
-.gist .gist-file, .gist-data{
-    border: none !important;
+.gist .gist-file,
+.gist-data {
+  border: none !important;
 }
 body .gist .blob-num,
 body .gist .blob-code-inner,
 body .gist .pl-s2,
 body .gist .pl-stj {
-    color: #f8f8f2;
+  color: #f8f8f2;
 }
 body .gist .pl-c1 {
-    color: #ae81ff;
+  color: #ae81ff;
 }
 body .gist .pl-enti {
-    color: #a6e22e;
-    font-weight: 700;
+  color: #a6e22e;
+  font-weight: 700;
 }
 body .gist .pl-st {
-    color: #66d9ef;
+  color: #66d9ef;
 }
 body .gist .pl-mdr {
-    color: #66d9ef;
-    font-weight: 400;
+  color: #66d9ef;
+  font-weight: 400;
 }
 body .gist .pl-ms1 {
-    background: #fd971f;
+  background: #fd971f;
 }
 body .gist .pl-c,
 body .gist .pl-c span,
 body .gist .pl-pdc {
-    color: #75715e;
-    font-style: italic;
+  color: #75715e;
+  font-style: italic;
 }
 body .gist .pl-cce,
 body .gist .pl-cn,
@@ -119,7 +121,7 @@ body .gist .pl-vpf,
 body .gist .pl-mri,
 body .gist .pl-va,
 body .gist .pl-vpu {
-    color: #66d9ef;
+  color: #66d9ef;
 }
 body .gist .pl-cos,
 body .gist .pl-ml,
@@ -127,7 +129,7 @@ body .gist .pl-pds,
 body .gist .pl-s,
 body .gist .pl-s1,
 body .gist .pl-sol {
-    color: #e6db74;
+  color: #e6db74;
 }
 body .gist .pl-e,
 body .gist .pl-ef,
@@ -145,7 +147,7 @@ body .gist .pl-pdv,
 body .gist .pl-som,
 body .gist .pl-sr,
 body .gist .pl-vo {
-    color: #a6e22e;
+  color: #a6e22e;
 }
 body .gist .pl-ent,
 body .gist .pl-eoa,
@@ -164,64 +166,66 @@ body .gist .pl-sok,
 body .gist .pl-sra,
 body .gist .pl-src,
 body .gist .pl-sre {
-    color: #f92672;
+  color: #f92672;
 }
 body .gist .pl-mb,
 body .gist .pl-pdb {
-    color: #e6db74;
-    font-weight: 700;
+  color: #e6db74;
+  font-weight: 700;
 }
 body .gist .pl-mi,
 body .gist .pl-pdi {
-    color: #f92672;
-    font-style: italic;
+  color: #f92672;
+  font-style: italic;
 }
 body .gist .pl-pdc1,
 body .gist .pl-scp {
-    color: #ae81ff;
+  color: #ae81ff;
 }
 body .gist .pl-sc,
 body .gist .pl-sf,
 body .gist .pl-mo,
 body .gist .pl-entl {
-    color: #fd971f;
+  color: #fd971f;
 }
 body .gist .pl-mi1,
 body .gist .pl-mdht {
-    color: #a6e22e;
-    background: rgba(0, 64, 0, .5);
+  color: #a6e22e;
+  background: rgba(0, 64, 0, 0.5);
 }
 body .gist .pl-md,
 body .gist .pl-mdhf {
-    color: #f92672;
-    background: rgba(64, 0, 0, .5);
+  color: #f92672;
+  background: rgba(64, 0, 0, 0.5);
 }
 body .gist .pl-mdh,
 body .gist .pl-mdi {
-    color: #a6e22e;
-    font-weight: 400;
+  color: #a6e22e;
+  font-weight: 400;
 }
 body .gist .pl-ib,
 body .gist .pl-id,
 body .gist .pl-ii,
 body .gist .pl-iu {
-    background: #a6e22e;
-    color: #272822;
+  background: #a6e22e;
+  color: #272822;
 }
 body .gist .gist-meta {
-    color: #ffffff;
-    background: #141618; 
-    border:none !important;
+  color: #ffffff;
+  background: #141618;
+  border: none !important;
 }
-  
+
 .btn-primary {
-    color:#ffffff;
-    background-color: #1f2125;
-    border-color: #ffffff;
+  color: #ffffff;
+  background-color: #1f2125;
+  border-color: #ffffff;
 }
-
+.blog-intro {
+  font-size: 1em;
+  margin: 10px 0 10px 0;
+}
 footer {
-    font-size: 0.7em;
-    padding: 0px 10px;
+  font-size: 0.7em;
+  padding: 0px 10px;
 }
-
