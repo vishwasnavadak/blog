@@ -225,6 +225,11 @@ body .gist .gist-meta {
   font-size: 1em;
   margin: 10px 0 10px 0;
 }
+blockquote {
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+}
 footer {
   font-size: 0.7em;
   padding: 0px 10px;
