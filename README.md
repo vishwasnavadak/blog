@@ -1,5 +1,7 @@
 # Blog Posts
 
+#### 2019-03-19 - [Wierd, Odd or Unique](https://vishwas.tech/blog/2019/03/19/wierd.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) 
+
 #### 2019-03-01 - [The Contribution Game](https://vishwas.tech/blog/2019/03/01/contribution.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) 
 
 #### 2019-02-02 - [That #Wanderlust feeling](https://vishwas.tech/blog/2019/02/02/travel.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic)
