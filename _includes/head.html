@@ -1,38 +1,24 @@
 <head>
   <meta charset="utf-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="theme-color" content="#1f2125" />
   <title>
     {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }} {%
     else %}{{ site.title | escape }}{% endif %}
   </title>
 
-  <meta
-    name="description"
-    itemprop="description"
-    content="{{
+  <meta name="description" itemprop="description" content="{{
       page.excerpt
         | default: site.description
         | strip_html
         | normalize_whitespace
         | truncate: 160
         | escape
-    }}"
-  />
-  <meta
-    name="keywords"
-    itemprop="keywords"
-    content="{{ page.metakeywords | default: site.metakeywords }}"
-  />
+    }}" />
+  <meta name="keywords" itemprop="keywords" content="{{ page.metakeywords | default: site.metakeywords }}" />
   <!-- Open Graph Meta Tags -->
   <meta name="og:title" content="{{ page.title }}" />
-  <meta
-    name="og:description"
-    content="{{ page.excerpt | default: site.description }}"
-  />
+  <meta name="og:description" content="{{ page.excerpt | default: site.description }}" />
   <meta name="og:image" content="{{ site.url }}/blog{{ page.background }}" />
   <meta name="og:url" content="{{ site.url }}/blog{{ page.url }}" />
   <meta name="og:site_name" content="{{ site.title }}" />
@@ -41,42 +27,30 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@vishwasnavadak" />
   <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}" />
-  <meta
-    name="twitter:description"
-    content="{{ page.excerpt | default: site.description }}"
-  />
-  <meta
-    name="twitter:image"
-    content="{{ site.url }}/blog{{ page.background }}"
-  />
+  <meta name="twitter:description" content="{{ page.excerpt | default: site.description }}" />
+  <meta name="twitter:image" content="{{ site.url }}/blog{{ page.background }}" />
 
-  <link
-    href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
-    rel="stylesheet"
-    type="text/css"
-  />
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
-    rel="stylesheet"
-    type="text/css"
-  />
+    rel="stylesheet" type="text/css" />
 
   <link rel="stylesheet" href="{{
     "/assets/vendor/bootstrap/css/bootstrap.min.css" | relative_url
-  }}"> <link rel="stylesheet" href="{{
+  }}">
+  <link rel="stylesheet" href="{{
     "/assets/vendor/font-awesome/css/font-awesome.min.css" | relative_url
   }}">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <meta name="theme-color" content="#34353c" />
   <link rel="stylesheet" href="{{
     "/assets/main.css" | relative_url
-  }}"> <link rel="stylesheet" href="{{
+  }}">
+  <link rel="stylesheet" href="{{
     "/assets/override.css" | relative_url
   }}">
-  <link
-    rel="canonical"
-    href="{{ page.url | replace:'index.html','' | absolute_url }}"
-  />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
   <link rel="alternate" type="application/rss+xml" title="{{
     site.title | escape
   }}" href="{{
