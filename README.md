@@ -1,10 +1,12 @@
 # Blog Posts
 
-#### 2019-04-21 - [Looks Does Matter](https://vishwas.tech/blog/2019/04/21/user-experience.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) 
+#### 2019-05-29 - [Series of Fortunate Events](https://vishwas.tech/blog/2019/05/29/series-of-fortunate-events.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) 
 
-#### 2019-03-19 - [Wierd, Odd or Unique](https://vishwas.tech/blog/2019/03/19/wierd.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) 
+#### 2019-04-21 - [Looks Does Matter](https://vishwas.tech/blog/2019/04/21/user-experience.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic)
 
-#### 2019-03-01 - [The Contribution Game](https://vishwas.tech/blog/2019/03/01/contribution.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) 
+#### 2019-03-19 - [Wierd, Odd or Unique](https://vishwas.tech/blog/2019/03/19/wierd.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic)
+
+#### 2019-03-01 - [The Contribution Game](https://vishwas.tech/blog/2019/03/01/contribution.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic)
 
 #### 2019-02-02 - [That #Wanderlust feeling](https://vishwas.tech/blog/2019/02/02/travel.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic)
 
