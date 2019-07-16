@@ -1,8 +1,8 @@
 # Blog Posts
 
-#### 2019-07-15 - [Scraping the web with javascript](https://vishwas.tech/blog/2019/07/15/scraping-with-nodejs.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) 
+#### 2019-07-15 - [Scraping the web with javascript](https://vishwas.tech/blog/2019/07/15/scraping-with-javascript.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) 
 
-#### 2019-05-29 - [Series of Fortunate Events](https://vishwas.tech/blog/2019/05/29/series-of-fortunate-events.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) 
+#### 2019-05-29 - [Series of Fortunate Events](https://vishwas.tech/blog/2019/05/29/series-of-fortunate-events.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic)
 
 #### 2019-04-21 - [Looks Does Matter](https://vishwas.tech/blog/2019/04/21/user-experience.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic)
 
