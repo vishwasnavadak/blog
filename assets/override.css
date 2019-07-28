@@ -1,25 +1,118 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+/* --------------------------------------------------------
+Style Sheet for vishwas.tech
 
-body {
-  background: #1f2125 !important;
-  color: #fff !important;
-  vertical-align: middle;
-  font-family: "Raleway", sans-serif !important;
-  height: 100%;
+version: 2
+license: MIT
+author: Vishwasa Navada K
+email: hi@vishwas.tech
+website: https://vishwas.tech
+----------------------------------------------------------*/
+
+/*------------ Font Imports   ------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Jockey+One&display=swap");
+
+/*------------ Variables ------------*/
+:root {
+  --font-primary: #ffffff;
+  --font-secondary: #bbbbbb;
+  --font-ternary: #000000;
+  --background: #101010;
+  --background-nav: #161616;
+  --background-ternary: rgba(179, 179, 179, 0.3);
 }
-.container > .row a {
-  color: #ffffff !important;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
+/*------------ Override Defaults ------------*/
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 18px;
+  scroll-behavior: smooth;
 }
-.container > .row a:focus,
-a:hover {
-  color: #888888 !important;
+#body {
+  width: 100vw;
+  margin: 0 auto;
+  color: var(--font-primary);
+  background: var(--background);
+  font-family: "Exo", sans-serif;
 }
 
+#body h1 {
+  font-size: 2.6rem;
+  font-family: "Jockey One", sans-serif;
+}
+#body h2 {
+  font-size: 1.8rem;
+  margin: 15px auto;
+  font-family: "Exo", sans-serif;
+}
+#body h3 {
+  font-size: 1.6rem;
+  font-family: "Exo", sans-serif;
+}
+#body h4 {
+  font-size: 1.3rem;
+  color: var(--font-secondary);
+  font-family: "Exo", sans-serif;
+}
+#body p {
+  font-size: 1.2rem;
+  color: var(--font-secondary);
+  margin: 10px;
+  font-family: "Exo", sans-serif;
+}
+footer {
+  font-size: 0.8rem;
+  padding: 0px 10px;
+}
+blockquote {
+  color: var(--font-secondary);
+  text-align: center;
+  font-size: 1.2rem;
+}
+section {
+  padding: 15px;
+  min-height: 100vh;
+}
 header.masthead .post-heading {
   padding: 100px 0 10px !important;
+}
+header.masthead .post-heading .meta {
+  font-size: 0.9rem;
+  font-family: "Exo", sans-serif;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+}
+header.masthead {
+  margin-bottom: 10px;
+}
+pre.highlight {
+  color: var(--font-secondary);
+  background-color: var(--background);
+  padding: 8px 15px;
+  border-radius: 1px;
+}
+a {
+  text-decoration: none;
+  color: var(--font-primary) !important;
+  cursor: pointer;
+}
+a:hover {
+  color: var(--font-secondary) !important;
+  text-decoration: none;
+}
+.row {
+  margin: 0 auto !important;
+}
+.section-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .share-buttons {
   display: table;
@@ -33,204 +126,219 @@ header.masthead .post-heading {
 .share-buttons > a {
   text-decoration: none;
 }
-hr {
+.social-icons-white a {
+  color: var(--font-secondary);
+  padding: 5px;
+  margin: 2px 5px;
+}
+hr.separator {
   width: 100%;
   border: 0;
   height: 1px;
-  margin-top: 15px 0px !important;
-  background-color: rgba(162, 156, 156, 0.1);
+  margin: 15px auto 20px auto;
+  background-color: var(--background-ternary);
 }
-figcaption {
+.btn,
+a.btn {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 0;
+  color: var(--font-secondary);
+  background-color: var(--background);
+  border: 1px solid var(--font-secondary);
+  font-family: "Exo", sans-serif;
+}
+a.btn:hover {
+  color: var(--background);
+  background-color: var(--font-secondary);
+  border: 1px solid var(--background);
+}
+
+/* Nav CSS from jekyll-theme-clean-blog */
+#mainNav {
+  position: fixed;
+  background-color: var(--background-nav);
+  color: var(--font-primary);
+  font-size: 1.4rem;
+  border: 0;
+  font-family: "Exo", sans-serif;
+}
+#mainNav .navbar-nav {
   text-align: center;
-  font-size: 0.8em;
 }
-header.masthead {
-  margin-bottom: 10px;
+#mainNav .navbar-nav > li.nav-item > a {
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: var(--font-primary);
 }
-@media only screen and (min-width: 992px) {
-  #mainNav {
-    border-bottom: 1px solid transparent;
-    background: transparent;
-    color: #ffffff !important;
-  }
+#mainNav .navbar-toggler {
+  font-size: 1rem;
+  padding: 13px;
+  color: var(--font-primary);
+  border-color: var(--font-secondary);
+  text-transform: uppercase;
 }
-pre.highlight {
-  color: #eeeeee;
-  background-color: #282a2f;
-  padding: 8px 15px;
-  border-radius: 1px;
+#mainNav .navbar-nav > li.nav-item > a {
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
+
 /* gist dark theme from https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/monokai.css */
-body .gist .highlight {
+#body .gist .highlight {
   background: #0a0b0c;
 }
 .gist .gist-file,
 .gist-data {
   border: none !important;
 }
-body .gist .blob-num,
-body .gist .blob-code-inner,
-body .gist .pl-s2,
-body .gist .pl-stj {
+#body .gist .blob-num,
+#body .gist .blob-code-inner,
+#body .gist .pl-s2,
+#body .gist .pl-stj {
   color: #f8f8f2;
 }
-body .gist .pl-c1 {
+#body .gist .pl-c1 {
   color: #ae81ff;
 }
-body .gist .pl-enti {
+#body .gist .pl-enti {
   color: #a6e22e;
   font-weight: 700;
 }
-body .gist .pl-st {
+#body .gist .pl-st {
   color: #66d9ef;
 }
-body .gist .pl-mdr {
+#body .gist .pl-mdr {
   color: #66d9ef;
   font-weight: 400;
 }
-body .gist .pl-ms1 {
+#body .gist .pl-ms1 {
   background: #fd971f;
 }
-body .gist .pl-c,
-body .gist .pl-c span,
-body .gist .pl-pdc {
+#body .gist .pl-c,
+#body .gist .pl-c span,
+#body .gist .pl-pdc {
   color: #75715e;
   font-style: italic;
 }
-body .gist .pl-cce,
-body .gist .pl-cn,
-body .gist .pl-coc,
-body .gist .pl-enc,
-body .gist .pl-ens,
-body .gist .pl-kos,
-body .gist .pl-kou,
-body .gist .pl-mh .pl-pdh,
-body .gist .pl-mp,
-body .gist .pl-mp1 .pl-sf,
-body .gist .pl-mq,
-body .gist .pl-pde,
-body .gist .pl-pse,
-body .gist .pl-pse .pl-s2,
-body .gist .pl-mp .pl-s3,
-body .gist .pl-smi,
-body .gist .pl-stp,
-body .gist .pl-sv,
-body .gist .pl-v,
-body .gist .pl-vi,
-body .gist .pl-vpf,
-body .gist .pl-mri,
-body .gist .pl-va,
-body .gist .pl-vpu {
+#body .gist .pl-cce,
+#body .gist .pl-cn,
+#body .gist .pl-coc,
+#body .gist .pl-enc,
+#body .gist .pl-ens,
+#body .gist .pl-kos,
+#body .gist .pl-kou,
+#body .gist .pl-mh .pl-pdh,
+#body .gist .pl-mp,
+#body .gist .pl-mp1 .pl-sf,
+#body .gist .pl-mq,
+#body .gist .pl-pde,
+#body .gist .pl-pse,
+#body .gist .pl-pse .pl-s2,
+#body .gist .pl-mp .pl-s3,
+#body .gist .pl-smi,
+#body .gist .pl-stp,
+#body .gist .pl-sv,
+#body .gist .pl-v,
+#body .gist .pl-vi,
+#body .gist .pl-vpf,
+#body .gist .pl-mri,
+#body .gist .pl-va,
+#body .gist .pl-vpu {
   color: #66d9ef;
 }
-body .gist .pl-cos,
-body .gist .pl-ml,
-body .gist .pl-pds,
-body .gist .pl-s,
-body .gist .pl-s1,
-body .gist .pl-sol {
+#body .gist .pl-cos,
+#body .gist .pl-ml,
+#body .gist .pl-pds,
+#body .gist .pl-s,
+#body .gist .pl-s1,
+#body .gist .pl-sol {
   color: #e6db74;
 }
-body .gist .pl-e,
-body .gist .pl-ef,
-body .gist .pl-en,
-body .gist .pl-enf,
-body .gist .pl-enm,
-body .gist .pl-entc,
-body .gist .pl-entm,
-body .gist .pl-eoac,
-body .gist .pl-eoac .pl-pde,
-body .gist .pl-eoi,
-body .gist .pl-mai .pl-sf,
-body .gist .pl-mm,
-body .gist .pl-pdv,
-body .gist .pl-som,
-body .gist .pl-sr,
-body .gist .pl-vo {
+#body .gist .pl-e,
+#body .gist .pl-ef,
+#body .gist .pl-en,
+#body .gist .pl-enf,
+#body .gist .pl-enm,
+#body .gist .pl-entc,
+#body .gist .pl-entm,
+#body .gist .pl-eoac,
+#body .gist .pl-eoac .pl-pde,
+#body .gist .pl-eoi,
+#body .gist .pl-mai .pl-sf,
+#body .gist .pl-mm,
+#body .gist .pl-pdv,
+#body .gist .pl-som,
+#body .gist .pl-sr,
+#body .gist .pl-vo {
   color: #a6e22e;
 }
-body .gist .pl-ent,
-body .gist .pl-eoa,
-body .gist .pl-eoai,
-body .gist .pl-eoai .pl-pde,
-body .gist .pl-k,
-body .gist .pl-ko,
-body .gist .pl-kolp,
-body .gist .pl-mc,
-body .gist .pl-mr,
-body .gist .pl-ms,
-body .gist .pl-s3,
-body .gist .pl-smc,
-body .gist .pl-smp,
-body .gist .pl-sok,
-body .gist .pl-sra,
-body .gist .pl-src,
-body .gist .pl-sre {
+#body .gist .pl-ent,
+#body .gist .pl-eoa,
+#body .gist .pl-eoai,
+#body .gist .pl-eoai .pl-pde,
+#body .gist .pl-k,
+#body .gist .pl-ko,
+#body .gist .pl-kolp,
+#body .gist .pl-mc,
+#body .gist .pl-mr,
+#body .gist .pl-ms,
+#body .gist .pl-s3,
+#body .gist .pl-smc,
+#body .gist .pl-smp,
+#body .gist .pl-sok,
+#body .gist .pl-sra,
+#body .gist .pl-src,
+#body .gist .pl-sre {
   color: #f92672;
 }
-body .gist .pl-mb,
-body .gist .pl-pdb {
+#body .gist .pl-mb,
+#body .gist .pl-pdb {
   color: #e6db74;
   font-weight: 700;
 }
-body .gist .pl-mi,
-body .gist .pl-pdi {
+#body .gist .pl-mi,
+#body .gist .pl-pdi {
   color: #f92672;
   font-style: italic;
 }
-body .gist .pl-pdc1,
-body .gist .pl-scp {
+#body .gist .pl-pdc1,
+#body .gist .pl-scp {
   color: #ae81ff;
 }
-body .gist .pl-sc,
-body .gist .pl-sf,
-body .gist .pl-mo,
-body .gist .pl-entl {
+#body .gist .pl-sc,
+#body .gist .pl-sf,
+#body .gist .pl-mo,
+#body .gist .pl-entl {
   color: #fd971f;
 }
-body .gist .pl-mi1,
-body .gist .pl-mdht {
+#body .gist .pl-mi1,
+#body .gist .pl-mdht {
   color: #a6e22e;
   background: rgba(0, 64, 0, 0.5);
 }
-body .gist .pl-md,
-body .gist .pl-mdhf {
+#body .gist .pl-md,
+#body .gist .pl-mdhf {
   color: #f92672;
   background: rgba(64, 0, 0, 0.5);
 }
-body .gist .pl-mdh,
-body .gist .pl-mdi {
+#body .gist .pl-mdh,
+#body .gist .pl-mdi {
   color: #a6e22e;
   font-weight: 400;
 }
-body .gist .pl-ib,
-body .gist .pl-id,
-body .gist .pl-ii,
-body .gist .pl-iu {
+#body .gist .pl-ib,
+#body .gist .pl-id,
+#body .gist .pl-ii,
+#body .gist .pl-iu {
   background: #a6e22e;
   color: #272822;
 }
-body .gist .gist-meta {
-  color: #ffffff;
+#body .gist .gist-meta {
+  color: var(--font-primary);
   background: #141618;
   border: none !important;
 }
-
-.btn-primary {
-  color: #ffffff;
-  background-color: #1f2125;
-  border-color: #ffffff;
-}
-.blog-intro {
-  font-size: 1em;
-  margin: 10px 0 10px 0;
-}
-blockquote {
-  color: #cccccc;
-  text-align: center;
-  font-size: 1.2em;
-}
-footer {
-  font-size: 0.7em;
-  padding: 0px 10px;
+#body .gist .gist-data {
+  background-color: #141618;
 }
