@@ -20,7 +20,7 @@ With capabilities like rich text formatting, document scanner and web clips Ever
 
 ## Windows Sticky Notes
 
-I remember when I used to list down some to-dos for later in Evernote and forget to open them. Even with the reminder feature, I failed to do the things I had listed in it. Moreover, my office's internal network has blocked Evernote since we use Microsoft products for all the communications (that's Microsoft trying to impose OneNote! Thanks :| ). That's where Sticky Notes came in to use. You would find at least 3-4 sticky notes open in my Desktop with random links, tasks to be completed and deadlines.
+I remember when I used to list down some to-dos for later in Evernote and forget to open them. Even with the reminder feature, I failed to do the things I had listed in it. Moreover, my office's internal network has blocked Evernote since we use Microsoft products for all the communications (that's Microsoft trying to impose OneNote! Thanks). That's where Sticky Notes came in to use. You would find at least 3-4 sticky notes open in my Desktop with random links, tasks to be completed and deadlines.
 
 ## Google Keep
 
