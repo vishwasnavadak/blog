@@ -3,7 +3,6 @@ layout: post
 title: "3 Reasons why Photography is one the best hobby"
 excerpt: "3 Reasons why Photography is one the best hobby"
 metakeywords: photography, travel, hobby, lifestyle, nature, landscape, vishwasnavadak
-subtitle: ""
 date: 2018-10-28 08:08:08
 background: "/assets/images/post_2.jpg"
 ---

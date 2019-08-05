@@ -3,7 +3,6 @@ layout: post
 title: "The Contribution Game"
 excerpt: "How to spend your time on internet wisely by contributing to open source, wikipedia etc. "
 metakeywords: open source, contribution, crowd source, google local guide, wikipedia, vishwasnavadak
-subtitle: ""
 date: 2019-03-01 08:08:08
 background: "/assets/images/post_8.jpg"
 ---

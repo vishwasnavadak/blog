@@ -3,7 +3,6 @@ layout: post
 title: "Scraping the web with javascript"
 excerpt: "Guide on how to scrape data from websites using javascript libraries like cheerio and nightmare.js"
 metakeywords: scraping, nodejs, cheerio, nightmare.js, react, angular, SSR, javascript, server rendered pages,vishwasnavadak
-subtitle: ""
 date: 2019-07-15 08:08:08
 background: "/assets/images/post_12/post_12.jpg"
 ---

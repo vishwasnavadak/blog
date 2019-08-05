@@ -3,7 +3,6 @@ layout: post
 title: "The Todo-list Addiction"
 excerpt: "Best Todo Apps for Mobile and PC/Mac in 2019"
 metakeywords: evernote, google keep, sticky notes, gmail tasks, vishwasnavadak
-subtitle: ""
 date: 2018-11-05 08:08:08
 background: "/assets/images/post_3.jpg"
 ---

@@ -3,11 +3,12 @@ layout: post
 title: "Life on Internet - Revisited"
 excerpt: "Timeline of my journey with the internet."
 metakeywords: internet, rewind, vishwasnavadak
-subtitle: ""
 date: 2019-01-01 08:08:08
-background: '/assets/images/post_6.jpeg'
+background: "/assets/images/post_6.jpeg"
 ---
-Since it's the beginning of the new year, I see a lot of *rewind* videos on YouTube. I decided to do something different and came up with an idea of writing a little about how my life has been on the internet. Please enjoy scrolling down till the end of the post.
+
+Since it's the beginning of the new year, I see a lot of _rewind_ videos on YouTube. I decided to do something different and came up with an idea of writing a little about how my life has been on the internet. Please enjoy scrolling down till the end of the post.
+
 <style> /* Sorry for adding CSS here -kVn */
 .main-timeline{
     font-family: 'Sanchez', serif;
@@ -229,16 +230,16 @@ Since it's the beginning of the new year, I see a lot of *rewind* videos on YouT
 </div>
 
 ### 2018
-Since I couldn't fit the important things that happened in 2018 inside the above timeline layout, I have listed them below,
-* Took a break from Facebook and Instagram. 
-* Contributed over 100 pictures, answered almost 500 questions, reviewed, rated and edited a good number of places on Google Maps
-* Revamped the Github page that was created long ago.
-* Bought the domain *vishwas.tech*.
-* Committed on writing at least one blog post per month (So far so good).
-* Set a target to learn a couple of new things.
 
+Since I couldn't fit the important things that happened in 2018 inside the above timeline layout, I have listed them below,
+
+- Took a break from Facebook and Instagram.
+- Contributed over 100 pictures, answered almost 500 questions, reviewed, rated and edited a good number of places on Google Maps
+- Revamped the Github page that was created long ago.
+- Bought the domain _vishwas.tech_.
+- Committed on writing at least one blog post per month (So far so good).
+- Set a target to learn a couple of new things.
 
 ## Happy new year!
-
 
 <small> Pure CSS timeline design is from <a href="http://www.bestjquery.com/labs/css-timeline-style-48/" target="_blank" rel="noopener noreferrer">here</a> </small>

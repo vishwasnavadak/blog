@@ -3,7 +3,6 @@ layout: post
 title: "Series of Fortunate Events"
 excerpt: "How my interest in WebDev changed my perspective of seeing things."
 metakeywords: web development, learning, vishwasnavadak
-subtitle: ""
 date: 2019-05-29 08:08:08
 background: "/assets/images/post_11/post_11.jpeg"
 ---
