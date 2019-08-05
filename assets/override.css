@@ -124,7 +124,7 @@ a:hover {
   display: table;
   padding: 10px 0;
 }
-.share-buttons > p {
+.share-buttons > span {
   display: table-cell;
   vertical-align: middle;
   padding-right: 10px;
