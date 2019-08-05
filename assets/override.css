@@ -44,7 +44,7 @@ html {
 }
 #body h2 {
   font-size: 1.8rem;
-  margin: 15px auto;
+  margin: 10px auto;
   font-family: "Exo", sans-serif;
 }
 #body h3 {
@@ -59,8 +59,11 @@ html {
 #body p {
   font-size: 1.2rem;
   color: var(--font-secondary);
-  margin: 10px;
   font-family: "Exo", sans-serif;
+  margin: 5px auto;
+}
+article {
+  margin: 15px auto;
 }
 footer {
   font-size: 0.8rem;
@@ -82,7 +85,9 @@ header.masthead .post-heading .meta {
   font-size: 0.9rem;
   font-family: "Exo", sans-serif;
 }
-
+small {
+  font-size: 0.8rem;
+}
 figcaption {
   text-align: center;
   font-size: 0.8rem;
@@ -100,11 +105,11 @@ pre.highlight {
 a {
   text-decoration: none;
   color: var(--font-primary) !important;
-  cursor: pointer;
 }
 a:hover {
   color: var(--font-secondary) !important;
   text-decoration: none;
+  cursor: pointer;
 }
 .row {
   margin: 0 auto !important;
@@ -131,6 +136,9 @@ a:hover {
   color: var(--font-secondary);
   padding: 5px;
   margin: 2px 5px;
+}
+h2.blog-intro {
+  font-weight: normal;
 }
 hr.separator {
   width: 100%;

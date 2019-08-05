@@ -22,17 +22,17 @@ layout: default
           {% if post.subtitle %}
           <h3 class="post-subtitle">{{ post.subtitle }}</h3>
           {% else %}
-          <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+          <p class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
           {% endif %}
         </a>
-        <p class="post-meta">Posted by
-          <strong> {% if post.author %}
-            {{ post.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %} </strong>
-          on
-          <strong>{{ post.date | date: '%B %d, %Y' }}</strong></p>
+        <p class="post-meta"><small>Posted by
+            <strong> {% if post.author %}
+              {{ post.author }}
+              {% else %}
+              {{ site.author }}
+              {% endif %} </strong>
+            on
+            <strong>{{ post.date | date: '%B %d, %Y' }}</strong></small></p>
       </article>
 
       <hr class="separator" />
