@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Looks Does Matter"
+title: "UX - Where Looks Does Matter"
 excerpt: "My thoughts on importance of User Experience, Usability and Interaction Design"
 metakeywords: user experience, design, usability, Accessibility, Interaction Design, vishwasnavadak
 date: 2019-04-21 08:08:08
