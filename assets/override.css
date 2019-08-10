@@ -60,7 +60,7 @@ html {
   font-size: 1.2rem;
   color: var(--font-secondary);
   font-family: "Exo", sans-serif;
-  margin: 5px auto;
+  margin: 10px auto;
 }
 article {
   margin: 15px auto;
