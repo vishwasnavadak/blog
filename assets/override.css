@@ -18,6 +18,7 @@ website: https://vishwas.tech
   --font-primary: #ffffff;
   --font-secondary: #bbbbbb;
   --font-ternary: #000000;
+  --font-code: #addb67;
   --background: #101010;
   --background-nav: #161616;
   --background-ternary: rgba(179, 179, 179, 0.3);
@@ -91,6 +92,9 @@ small {
 figcaption {
   text-align: center;
   font-size: 0.8rem;
+}
+code {
+  color: var(--font-code);
 }
 header.masthead {
   margin-top: 40px;
