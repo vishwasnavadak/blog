@@ -24,7 +24,7 @@ url: "https://vishwas.tech" # the base hostname & protocol for your site, e.g. h
 production_url: https://vishwas.tech/blog/
 BASE_PATH: https://vishwas.tech/blog/
 social_media: vishwasnavadak
-metakeywords: vishwasa navada k, vishwasnavadak, vishwas github page, vishwas.tech, personal portfolio, webception, web developer, udupi, saligrama
+metakeywords: vishwasa navada k, vishwasnavadak, vishwas github page, vishwas.tech, personal portfolio, webception, web developer, javascript developer, reactjs
 author: Vishwasa Navada K
 # Build settings
 markdown: kramdown
