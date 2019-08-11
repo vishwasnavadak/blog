@@ -57,7 +57,7 @@ html {
   color: var(--font-secondary);
   font-family: "Exo", sans-serif;
 }
-#body p {
+p {
   font-size: 1.2rem;
   color: var(--font-secondary);
   font-family: "Exo", sans-serif;
@@ -82,7 +82,8 @@ section {
 header.masthead .post-heading {
   padding: 100px 0 10px !important;
 }
-header.masthead .post-heading .meta {
+header.masthead .post-heading .meta,
+#body .post-meta {
   font-size: 0.9rem;
   font-family: "Exo", sans-serif;
 }
