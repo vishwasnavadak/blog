@@ -18,14 +18,8 @@ layout: default
             {% if page.subtitle %}
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
-            <span class="meta">Posted by
-              <a href="{{ site.url }}"><strong>{% if page.author %}
-                  {{ page.author }}
-                  {% else %}
-                  {{ site.author }}
-                  {% endif %}
-                </strong></a>
-              on <strong>{{ page.date | date: "%B %d, %Y" }}</strong></span>
+            <span class="meta"><span class="fa fa-calendar-check-o" aria-label="Posted On"></span>
+              {{ page.date | date: "%B %d, %Y" }}</span>
             <div class="share-buttons">
               <span>Share:</span>
               <!-- Facebook -->
