@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tools that makes my life easy and organized"
+title: "Tools that make my life easy and organized"
 excerpt: "Softwares and tools to organize your routine for more productivity."
 metakeywords: alternatives, trello, Netlify, VSCode, visual studio code, CodeSandbox, Feedly, sourcetree, productivity, vishwasnavadak
 date: 2019-08-11 08:08:08
