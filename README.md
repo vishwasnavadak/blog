@@ -1,5 +1,7 @@
 # Blog Posts
 
+#### 2019-08-11 - [Tools that makes my life easy and organized](https://vishwas.tech//blog/2019/08/11/softwares-that-makes-life-easy-and-organized.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) 
+
 #### 2019-07-15 - [Scraping the web with javascript](https://vishwas.tech/blog/2019/07/15/scraping-with-javascript.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic)
 
 #### 2019-05-29 - [Series of Fortunate Events](https://vishwas.tech/blog/2019/05/29/series-of-fortunate-events.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic)
