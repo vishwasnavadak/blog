@@ -18,7 +18,7 @@ A web scraper is a program that helps to extract information from the webpage or
 Static/Server rendered webpages will already have the content loaded as a plain HTML format when you are viewing it. So when you to go to _view-source:https://webpage.com_ you will get to see the actual content you need to fetch. This makes your work easy, all you need to do is to check the class/id names of the data you need to fetch. For example, in the current version of my homepage, I have my skills listed in the classes skill-row, skill-col and skill-content.
 
 <figure>
-<img src="{{ site.baseurl }}/assets/images/post_12/post_12_1.png" width="100%" alt="Scraping with axios and cheerio" Title="Scraping with axios and cheerio"/><figcaption>Inspect and get to know what class/id you need to fetch</figcaption>
+<img loading="lazy" src="{{ site.baseurl }}/assets/images/post_12/post_12_1.png" width="100%" alt="Scraping with axios and cheerio" Title="Scraping with axios and cheerio"/><figcaption>Inspect and get to know what class/id you need to fetch</figcaption>
 </figure>
 
 To extract data from those classes , we will use libraries like `axios` and `cheerio`. To begin, npm install the libraries.
@@ -30,7 +30,7 @@ Axios is just an HTTP client that we use to fetch the webpage content. You can a
 You can use functions like `.html()`,`.text()`,`.attr()`,`.find()` etc. with the loaded content to extract the data.
 
 <figure>
-<img src="{{ site.baseurl }}/assets/images/post_12/post_12_2.png" width="100%" alt="Scraping with axios and cheerio" Title="Scraping with axios and cheerio"/><figcaption>Code and output from cheerio</figcaption>
+<img loading="lazy" src="{{ site.baseurl }}/assets/images/post_12/post_12_2.png" width="100%" alt="Scraping with axios and cheerio" Title="Scraping with axios and cheerio"/><figcaption>Code and output from cheerio</figcaption>
 </figure>
 
 Above code is available in <a href="https://gist.github.com/vishwasnavadak/bf461449edd7683b1535de60d7815e13#file-scraping-with-cheerio-js" target="_blank" rel="noopener noreferrer">this gist. </a>
@@ -48,7 +48,7 @@ Let's say you want to get the first result of a certain search on duckduckgo.com
 We can use `.type()` or `.select()` to fill the inputs in any website. `.wait()` method with any class/id will stop the further execution until that particular HTML is loaded. Post that, we can use HTML `document` object to get specific data that we wanted to extract.
 
 <figure>
-<img src="{{ site.baseurl }}/assets/images/post_12/post_12_3.gif" width="100%" alt="Scraping with nightmarejs" Title="Scraping with nightmarejs"/><figcaption>Nightmarejs in action.</figcaption>
+<img loading="lazy" src="{{ site.baseurl }}/assets/images/post_12/post_12_3.gif" width="100%" alt="Scraping with nightmarejs" Title="Scraping with nightmarejs"/><figcaption>Nightmarejs in action.</figcaption>
 </figure>
 
 ## References:
