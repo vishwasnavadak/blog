@@ -2,7 +2,7 @@
 layout: post
 title: "Using JavaScript with Tableau"
 excerpt: "Different ways of using JS with Tableau, their examples and use cases"
-metakeywords: data visualization, tableau, d3js,tableau extensions, js api, reactjs, angular, vishwasnavadak
+metakeywords: data visualization, javascript, tableau, d3js,tableau extensions, js api, reactjs, angular, vishwasnavadak
 date: 2019-09-25 08:08:08
 background: "/assets/images/post_14/post_14.png"
 ---
