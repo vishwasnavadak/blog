@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Wierd, Odd or Unique"
+title: "Weird, Odd or Unique"
 excerpt: "Choosing between what's right and what's mainstream!"
-metakeywords: choices, wierd, different, unique, odd, vishwasnavadak
+metakeywords: choices, weird, different, unique, odd, life, confusion, vishwasnavadak
 date: 2019-03-19 08:08:08
 background: "/assets/images/post_9.jpg"
 ---

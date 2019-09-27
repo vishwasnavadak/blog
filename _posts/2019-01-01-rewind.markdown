@@ -2,7 +2,7 @@
 layout: post
 title: "Life on Internet - Revisited"
 excerpt: "Timeline of my journey with the internet."
-metakeywords: internet, rewind, vishwasnavadak
+metakeywords: internet, rewind, life, vishwasnavadak
 date: 2019-01-01 08:08:08
 background: "/assets/images/post_6.jpeg"
 ---
