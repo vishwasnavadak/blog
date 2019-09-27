@@ -172,7 +172,10 @@ a.btn:hover {
   background-color: var(--font-secondary);
   border: 1px solid var(--background);
 }
-
+.related-post {
+  cursor: pointer;
+  text-align: center;
+}
 /* Nav CSS from jekyll-theme-clean-blog */
 #mainNav {
   position: fixed;

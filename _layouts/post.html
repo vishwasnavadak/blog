@@ -68,7 +68,9 @@ layout: default
     <div class="row">
       <div class="col-lg-12 col-md-12 mx-auto">
         {{ content }}
+
         <hr class="separator" />
+
         <!-- Begin Mailchimp Signup Form -->
         <div id="mc_embed_signup">
           <form
@@ -99,6 +101,41 @@ layout: default
         </div>
         <!--End mc_embed_signup-->
         <hr class="separator" />
+        <div class="related-content">
+          <h5 class="text-center">Related Posts</h5>
+          <div class="row">
+            {% assign maxRelated = 3 %}
+            {% assign minCommonTags =  1 %}
+            {% assign maxRelatedCounter = 0 %}
+
+            {% for post in site.posts %}
+
+            {% assign sameTagCount = 0 %}
+            {% assign postTags = post.metakeywords | split:',' %}
+            {% for tag in postTags %}
+            {% if post.url != page.url %}
+            {% assign pageTags = page.metakeywords | split:',' %}
+            {% if pageTags contains tag %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+            {% if sameTagCount >= minCommonTags %}
+            <div class="related-post col-sm-4">
+              <a href="{{ site.baseurl }}{{ post.url }}?utm_source=Blog&utm_medium=Blog&utm_campaign=Relatedposts">
+                <p>{{ post.title }}</p>
+              </a>
+            </div>
+            {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+            {% if maxRelatedCounter >= maxRelated %}
+            {% break %}
+            {% endif %}
+            {% endif %}
+
+            {% endfor %}
+          </div>
+        </div>
+        <hr class="separator" />
 
         <div class="clearfix">
           {% if page.previous.url %}
@@ -109,7 +146,8 @@ layout: default
           {% endif %} {% if page.next.url %}
           <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
             data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span
-              class="d-none d-md-inline"> Post</span> &rarr;</a>
+              class="d-none d-md-inline">
+              Post</span> &rarr;</a>
           {% endif %}
         </div>
       </div>
