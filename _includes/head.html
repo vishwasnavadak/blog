@@ -47,7 +47,17 @@
       "@type": "Person",
       "name": "{{ site.author }}"
     },  
-    "datePublished": "{{ page.date }}"
+    "publisher": {
+    "@type": "Organization",
+    "name": "Vishwas.tech Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/blog{{ page.background }}"
+    }
+    },
+    "datePublished": "{{ page.date }}",
+    "dateModified": "{{ page.date }}"
+
   }
   </script>
 
