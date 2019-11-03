@@ -17,7 +17,7 @@
     }}" />
   <meta name="keywords" itemprop="keywords" content="{{ page.metakeywords | default: site.metakeywords }}" />
   <!-- Open Graph Meta Tags -->
-  <meta name="og:title" content="{{ page.title }}" />
+  <meta name="og:title" content="{{ page.title }} - {{ site.title }}" />
   <meta name="og:description" content="{{ page.excerpt | default: site.description }}" />
   <meta name="og:image" content="{{ site.url }}/blog{{ page.background }}" />
   <meta name="og:url" content="{{ site.url }}/blog{{ page.url }}" />
@@ -29,6 +29,27 @@
   <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}" />
   <meta name="twitter:description" content="{{ page.excerpt | default: site.description }}" />
   <meta name="twitter:image" content="{{ site.url }}/blog{{ page.background }}" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}/blog{{ page.url }}"
+    },
+    "headline": "{{ page.title }} - {{ site.title }}",
+    "description": "{{ page.excerpt | default: site.description }}",
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/blog{{ page.background }}",
+    },
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author }}"
+    },  
+    "datePublished": "{{ page.date }}"
+  }
+  </script>
 
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
