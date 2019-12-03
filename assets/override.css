@@ -95,6 +95,10 @@ header.masthead .post-heading .meta,
 small {
   font-size: 0.8rem;
 }
+figure {
+  margin: 0 auto;
+  text-align: center;
+}
 figcaption {
   text-align: center;
   font-size: 0.8rem;
