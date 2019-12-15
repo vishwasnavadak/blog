@@ -28,7 +28,6 @@ markdown: kramdown
 theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
-  - jekyll-redirect-from
 
 remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 # Exclude from processing.
