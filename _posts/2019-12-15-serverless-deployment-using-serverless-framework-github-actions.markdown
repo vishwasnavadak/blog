@@ -70,3 +70,5 @@ Once you have added the YAML configuration for your Github action to the reposit
 - Github Actions are not only meant to be CI/CD. They are capable of automating Code Reviews, PR Merges, etc. A complete list of open-sourced Github Actions can be found in [their marketplace](https://github.com/marketplace?type=actions).
 
 - Github Action is free and unlimited for public repositories. But has a limit of 2000 minutes of runtime per minute for Private Repositories.
+
+Sample project with Github Action setup can be found in my [github repository](https://github.com/vishwasnavadak/serverless-sample).
