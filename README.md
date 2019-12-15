@@ -1,5 +1,7 @@
 # Blog Posts
 
+#### 2019-12-15 - [Easy Serverless Deployment using Serverless Framework & Github Actions](https://vishwas.tech//blog/2019/12/15/serverless-deployment-using-serverless-framework-github-actions.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic) 
+
 #### 2019-09-25 - [Using JavaScript with Tableau](https://vishwas.tech//blog/2019/09/25/using-javascript-with-tableau.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic)
 
 #### 2019-08-11 - [Tools that makes my life easy and organized](https://vishwas.tech//blog/2019/08/11/softwares-that-makes-life-easy-and-organized.html?utm_source=GitHub&utm_medium=GitHubRepo&utm_campaign=GitHubTraffic)
