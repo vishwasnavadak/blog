@@ -19,7 +19,8 @@
   <!-- Open Graph Meta Tags -->
   <meta name="og:title" content="{{ page.title }} - {{ site.title }}" />
   <meta name="og:description" content="{{ page.excerpt | default: site.description }}" />
-  <meta name="og:image" content="{{ site.url }}/blog{{ page.background }}" />
+  <meta name="og:image"
+    content="{% if page.background %}{{ site.url }}/blog{{ page.background }}{% else %}{{ site.url}}/assets/img/bg.jpeg{% endif %}" />
   <meta name="og:url" content="{{ site.url }}/blog{{ page.url }}" />
   <meta name="og:site_name" content="{{ site.title }}" />
   <meta name="og:type" content="website" />
@@ -28,7 +29,8 @@
   <meta name="twitter:site" content="@vishwasnavadak" />
   <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}" />
   <meta name="twitter:description" content="{{ page.excerpt | default: site.description }}" />
-  <meta name="twitter:image" content="{{ site.url }}/blog{{ page.background }}" />
+  <meta name="twitter:image"
+    content="{% if page.background %}{{ site.url }}/blog{{ page.background }}{% else %}{{ site.url}}/assets/img/bg.jpeg{% endif %}" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
