@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Svelte and Sapper: First Impressions'
-excerpt: ''
+excerpt: 'Things I have learnt about Svelte while re-writing my website with Sapper Framework'
 metakeywords: javascript, svelte, sapper framework, sveltejs, JAMstack, Web development, technology stacks
 date: 2020-07-18 08:08:08
 background: '/assets/images/post_17.png'
